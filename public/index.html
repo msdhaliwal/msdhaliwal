@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./favicon.ico" />   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="./assets/css/client.css">
+  </head>
+<body>
+  <div class="page">
+    <span class="menu_toggle">
+      <i class="menu_open fa fa-bars fa-lg"></i>
+      <i class="menu_close fa fa-times fa-lg"></i>
+    </span>
+    <ul class="menu_items">
+      <li><a><i class="icon fa fa-search-plus"></i> Income</a></li>
+      <li><a><i class="icon fa fa-search-plus"></i> Expense</a></li>
+      <li><a><i class="icon fa fa-search-plus"></i> Loans</a></li>
+      <li><a><i class="icon fa fa-search-plus"></i> Lendings</a></li>
+      <li><a><i class="icon fa fa-search-plus"></i> Savings</a></li>
+    </ul>
+    <main class="content">
+      <div class="content_inner">
+        <h1>Expense Tracker</h1>
+      </div>
+    </main>
+    <div class="modal-container">
+      <div class="modal">
+        <div class="modal-heading">
+          Add record
+          <span class="cross-button">✖</span>
+        </div>
+        <div class="modal-body">
+          <input type="number" name="" id="amount" placeholder="Amount" />
+          <br>
+          <select id="typeSelector">
+            <option value="income">Income</option>
+            <option value="Expense">Expense</option>
+            <option value="loan">Loan</option>
+            <option value="lendings">Lendings</option>
+            <option value="savings">Savings</option>
+          </select>
+          <br>
+          <button id="save">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scripts -->
+  <script src="./assets/js/client.js"></script>
+</body>
