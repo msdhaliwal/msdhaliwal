@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Manpreet Singh</title>
+		<title>ਮਨਪ੍ਰੀਤ ਸਿੰਘ | Manpreet Singh</title>
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
@@ -17,6 +17,8 @@
 			img {
 				border-radius: 10%;
 				border: 1px solid white;
+				user-select: none;
+				-webkit-user-drag: none;
 			}
 			span {
 				color: #c15f03;
@@ -31,8 +33,12 @@
 				flex-wrap: wrap;
 				gap: 10px;
 			}
-			* {
-				user-select: none;
+			a {
+				text-decoration: none;
+			}
+			::selection {
+				color: #111111;
+				background-color: #e7e7e7;
 			}
 		</style>
 	</head>
@@ -41,10 +47,11 @@
 		<img width="200px" src="./src/assets/self2.jpeg" alt="HC Photo" />
 		<p>Welcome to my home page</p>
 		<p>
-			My Name is Manpreet Singh, I am a programmer 🧑🏻‍💻 by profession and a reader
-			📖 by passion. I have been 'engineering' on for more than 6 years now and
-			it is my passion to building some thing that helps people in their day to
-			day lives.
+			My Name is Manpreet Singh, I am a programmer
+			<a href="./projects.html">🧑🏻‍💻</a> by profession and a reader
+			<a href="./books.html">📖</a> by passion. I have been 'engineering' on for
+			more than 6 years now and it is my passion to building some thing that
+			helps people in their day to day lives.
 		</p>
 	</body>
 </html>
