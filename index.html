@@ -1,66 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>ਮਨਪ੍ਰੀਤ ਸਿੰਘ | Manpreet Singh</title>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-			.accent_color {
-				color: #1287a5;
-			}
-			body {
-				font-family: victor mono;
-				background-color: #111111;
-				color: #e7e7e7;
-				margin: 10px;
-				padding: 10px;
-			}
-			img {
-				border-radius: 10%;
-				border: 1px solid white;
-				user-select: none;
-				-webkit-user-drag: none;
-			}
-			span {
-				color: #c15f03;
-			}
-			button {
-				margin: 3px;
-			}
-			.button-container {
-				display: flex;
-				flex-direction: row;
 
-				flex-wrap: wrap;
-				gap: 10px;
-			}
-			a {
-				text-decoration: none;
-			}
-			::selection {
-				color: #111111;
-				background-color: #e7e7e7;
-			}
-			.accent_color::selection {
-				background-color: #1287a5;
-			}
-		</style>
-	</head>
-	<body>
-		<h1>Manpreet Singh Dhaliwal</h1>
-		<img
-			width="200px"
-			src="./src/assets/self2.jpeg"
-			alt="Manpreet Singh Dhaliwal - Developer Profile Picture" />
-		<p>Welcome to my home page</p>
-		<p>
-			My Name is <span class="accent_color">M</span>anpreet
-			<span class="accent_color">S</span>ingh, I am a programmer
-			<a href="./projects.html">🧑🏻‍💻</a> by profession and a reader
-			<a href="./books.html">📖</a> by passion. I have been 'engineering' on for
-			more than 6 years now and it is my passion to building some thing that
-			helps people in their day to day lives.
-		</p>
-	</body>
+<head>
+	<!-- meta tags for SEO -->
+	<meta name="description"
+		content="Welcome to Manpreet Singh Dhaliwal's homepage. A passionate programmer with over 6 years of experience and an avid reader. Explore my projects and interests." />
+	<meta name="keywords"
+		content="Manpreet Singh, msdhaliwal, Programmer, Developer, Software Engineer, Coder, JavaScript, Python, Reading, Books, Projects, NodeJs" />
+	<meta name="author" content="Manpreet Singh Dhaliwal" />
+	<meta name="robots" content="index, follow" />
+	<meta name="language" content="English" />
+	<meta name="revisit-after" content="7 days" />
+	<!--  -->
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ਮਨਪ੍ਰੀਤ ਸਿੰਘ | Manpreet Singh</title>
+	<link rel="icon" href="./src/assets/favicon.svg" type="image/svg+xml">
+	<style>
+		/* Font Definitions */
+		@font-face {
+			font-family: 'Victor Mono';
+			font-style: italic;
+			font-weight: 100 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/victormono/v3/Yq6S-LGQWyfv-LGy7lEO0_ZYhxMMTJRE49CK8g.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0100-02AF, U+0301, U+0400-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+		}
+
+		@font-face {
+			font-family: 'Victor Mono';
+			font-style: normal;
+			font-weight: 100 700;
+			font-display: swap;
+			src: url(https://fonts.gstatic.com/s/victormono/v3/Yq6Q-LGQWyfv-LGy7lEO0_ZdtxUGS7ZG.woff2) format('woff2');
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+		}
+
+		body {
+			font-family: victor mono;
+			background-color: #ffffff;
+			margin: 10px;
+			padding: 10px;
+		}
+
+		button {
+			margin: 3px;
+		}
+
+		img {
+			border-radius: 10%;
+			box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+			user-select: none;
+			-webkit-user-drag: none;
+			width: 200px;
+		}
+
+		.button-container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		::selection {
+			color: #111111;
+			background-color: #e7e7e7;
+		}
+
+		footer {
+			padding: 8px 16px;
+		}
+
+		.links-buttons {
+			display: inline-block;
+			background-color: #000;
+			padding: 4px 8px;
+			color: #ffffff;
+			border-radius: 8px;
+		}
+
+		/* .links-buttons:focus,
+		.links-buttons:hover {
+			background-color: #111010;
+		} */
+	</style>
+</head>
+
+<body>
+	<h1>Manpreet Singh Dhaliwal</h1>
+	<img width="200px" src="./src/assets/self2.jpeg" alt="Manpreet Singh Dhaliwal - Developer Profile Picture" />
+	<header>Welcome to my digital home</header>
+	<main>
+		My Name is Manpreet Singh, I'm a seasoned Full Stack JavaScript Developer with over 6 years of experience
+		specializing in backend development, API optimization, and database management. My expertise spans a range of
+		technologies including Node.js, Electron.js, PostgreSQL, MongoDB, and cloud platforms such as Firebase. I excel at
+		transitioning projects from CMS to custom solutions, integrating advanced features like recurring payments, RBAC
+		systems, and webhook events. My role involves handling server-side business logic, optimizing APIs for peak
+		performance, and managing databases. I'm also deeply involved in planning and feasibility studies for new features,
+		ensuring alignment with business objectives while maintaining technical feasibility. I thrive on breaking down
+		complex requirements, crafting efficient solutions, and delivering on-time results.
+	</main>
+	<footer>
+		<a href="https://github.com/msdhaliwal" class="links-buttons">Github</a>
+		<a href="https://www.linkedin.com/in/msdhaliwal94/" class="links-buttons">LinkedIn</a>
+		<a href="/resume.html" class="links-buttons">Resume</a>
+	</footer>
+</body>
+
 </html>
