@@ -5,7 +5,7 @@
 I'm a **backend developer** with almost 7 years of experience in **Node.js**, working on scalable architectures, microservices, and cloud infrastructure. I enjoy solving complex problems and optimizing systems for performance.
 
 - 💼 Founding Engineer @jetmanlabs
-- 💼 Working as Technical Lead @codelux
+- 💼 Working as  working as AI developer at @truckparkingclub
 - 🏗️ Currently transitioning monolithic app to a **hybrid microservices architecture**
 - 📚 Passionate about **reading** and continuous learning
 - 📱 Exploring **AI** and **LLMs**
