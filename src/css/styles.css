@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #0a0a0a;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+.email {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.email a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 0 2rem 0;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.countdown div {
+  text-align: center;
+}
+
+.countdown span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.countdown p {
+  margin: 0.3rem 0 0 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.quote {
+  font-size: 1rem;
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
