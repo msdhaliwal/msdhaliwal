@@ -4,8 +4,8 @@
 
 I'm a **backend developer** with almost 7 years of experience in **Node.js**, working on scalable architectures, microservices, and cloud infrastructure. I enjoy solving complex problems and optimizing systems for performance.
 
-- 💼 Founding Engineer @jetmanlabs
-- 💼 Working as AI developer at @truckparkingclub
+- 💼 Founding Engineer @[jetmanlabs](https://jetmanlabs.com/)
+- 💼 Working as Senior Software Engineer at @[truckparkingclub](truckparkingclub.com)
 - 🏗️ Currently transitioning monolithic app to a **hybrid microservices architecture**
 - 📚 Passionate about **reading** and continuous learning
 - 📱 Exploring **AI** and **LLMs**
@@ -35,7 +35,7 @@ I'm a **backend developer** with almost 7 years of experience in **Node.js**, wo
 ## 📫 Let's Connect
 - 💼 [LinkedIn](https://www.linkedin.com/in/msdhaliwal94/)
 - 🌐 [Website](https://msdhaliwal.com)
-- 📧 Email: contact@msdhaliwal.com
+- 📧 Email: [contact@msdhaliwal.com](mailto:contact@msdhaliwal.com)
 - 🏗️ Open to collaborations on scalable architectures and backend optimizations
 
 ---
