@@ -1,18 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Manpreet Singh</title>
-  <link rel="stylesheet" href="./src/css/styles.css" />
+  <!-- <link rel="stylesheet" href="./src/css/styles.css" /> -->
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Courier New', monospace;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+      max-width: 800px;
+    }
+
+    img {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
+
 <body>
   <div class="container">
-    <p class="email">Say hello! <a href="mailto:hello@msdhaliwal.com">hello@msdhaliwal.com</a></p>
-    <h1>We Are <br /> Coming Soon</h1>
-    <p class="quote">
-      We're strong believers that the best solutions come from gathering new insights and pushing conventional boundaries.
-    </p>
+    <img src="./src/assets/404.png" alt="404">
+    <h1 id="message"></h1>
   </div>
+  <script>
+    const error_messages = [
+      `Guess I Took a Wrong Turn.<br />Don't look at me like that.<br />Even the world's greatest swordsman gets lost sometimes.`,
+      `Not Here.<br />I swear it was this way.<br />...Shut up.`,
+      `You're Not Strong Enough to Find This Page.<br />Come back after 1,000 pushups.`,
+      `I'm 12 islands off course and still more useful than this link.`,
+      `Even I Can't Cut Through This Error.<br />Looks like this path doesn't exist.`
+    ]
+    document.querySelector("#message").innerHTML = error_messages[Math.floor(Math.random() * error_messages.length)];
+  </script>
 </body>
+
 </html>
