@@ -3,7 +3,7 @@ body {
   font-family: 'Courier New', monospace;
   background-color: #0a0a0a;
   color: #fff;
-  height: 100vh;
+  height: calc(100vh - 16px);
   display: flex;
   justify-content: center;
   align-items: center;
