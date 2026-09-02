@@ -1,42 +1,21 @@
-# Hi there, I'm Manpreet! 👋
+# msdhaliwal.com
 
-## 🚀 About Me
+Personal site of **Manpreet Singh Dhaliwal** — founding engineer & tech lead, eight years building backend systems, marketplaces and developer tools in Node.js, PostgreSQL and AWS.
 
-I'm a **backend developer** with almost 7 years of experience in **Node.js**, working on scalable architectures, microservices, and cloud infrastructure. I enjoy solving complex problems and optimizing systems for performance.
+Live at [msdhaliwal.com](https://msdhaliwal.com) · hosted on GitHub Pages.
 
-- 💼 Founding Engineer @[jetmanlabs](https://jetmanlabs.com/)
-- 💼 Working as Senior Software Engineer at @[truckparkingclub](truckparkingclub.com)
-- 🏗️ Currently transitioning monolithic app to a **hybrid microservices architecture**
-- 📚 Passionate about **reading** and continuous learning
-- 📱 Exploring **AI** and **LLMs**
-- 🛠️ Working on optimizing caching strategies using centralized **Redis**
+## Stack
 
-## 🛠 Tech Stack
+Hand-written HTML and CSS in a single `index.html`. No framework, no build step. Light/dark themes follow the OS setting with a manual toggle (remembered in `localStorage`). Fonts: Newsreader, Inter, JetBrains Mono via Google Fonts with system fallbacks.
 
-### Backend:
-- **Node.js (Express, TypeScript, Sequelize, BullMQ)**
-- **PostgreSQL, Redis**
-- **Microservices, API Design, Authentication**
+## Editing
 
-### DevOps & Cloud:
-- **AWS (S3, Lambda, RDS, CloudFront, SES, SNS, SQS)**
-- **Cloudflare R2**
-- **PM2 for process management**
+- Copy and structure: `index.html`
+- Portrait, résumé, favicon: `src/assets/`
+- Custom domain: `CNAME`
 
-### Frontend & Mobile:
-- **React, React Native (in progress)**
-- **REST APIs & GraphQL**
+Push to `main` and GitHub Pages redeploys.
 
-## 📌 Current Projects
-- **📦 Notifications Microservice**: Pluggable SMS & Email notifications with Twilio & SendGrid
-- **📅 Bookings Microservice**: Decoupling the order module from the monolith
-- **📱 Mobile App**: Building an app with React Native for iOS & Android
+## Contact
 
-## 📫 Let's Connect
-- 💼 [LinkedIn](https://www.linkedin.com/in/msdhaliwal94/)
-- 🌐 [Website](https://msdhaliwal.com)
-- 📧 Email: [contact@msdhaliwal.com](mailto:contact@msdhaliwal.com)
-- 🏗️ Open to collaborations on scalable architectures and backend optimizations
-
----
-💡 *Always learning, always building!* 🚀
+[contact@msdhaliwal.com](mailto:contact@msdhaliwal.com) · [GitHub](https://github.com/msdhaliwal) · [LinkedIn](https://www.linkedin.com/in/msdhaliwal94/)
