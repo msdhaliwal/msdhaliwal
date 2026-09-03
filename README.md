@@ -23,8 +23,8 @@ I'm usually the person who owns how a product's server side is designed, built a
 |---|---|
 | **Feb 2025 — now** | Senior Software Engineer · [Truck Parking Club](https://truckparkingclub.com) |
 | **Jul 2022 — Feb 2025** | Technical Lead · Truck Parking Club & Feasttt _(via Codelux Technologies)_ |
-| **2021 — Jul 2022** | Lead Engineer · [Jetmanlabs](https://jetmanlabs.com) |
-| **Sep 2018 — 2021** | Founding Engineer · [Jetmanlabs](https://jetmanlabs.com) |
+| **Apr 2021 — Jul 2022** | Lead Engineer · [Jetmanlabs](https://jetmanlabs.com) |
+| **Sep 2018 — Apr 2021** | Founding Engineer · [Jetmanlabs](https://jetmanlabs.com) |
 
 The work I'm proudest of: replatforming Truck Parking Club off Sharetribe onto a custom Node.js backend, so listings, bookings, pricing, payouts and permissions could be built around how truck parking actually works instead of a hosted template.
 
