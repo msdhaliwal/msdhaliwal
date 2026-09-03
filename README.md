@@ -1,6 +1,6 @@
 # Hi, I'm Manpreet 👋
 
-**Founding engineer turned tech lead** — eight years and counting building backend systems, marketplaces and developer tools in Node.js.
+**Founding engineer & technical lead** — eight years and counting building backend systems, marketplaces and developer tools in Node.js.
 
 I'm usually the person who owns how a product's server side is designed, built and kept healthy: clean schemas, sensible failure modes, and code that's boring in all the right places. Right now that means leading the backend and architecture of [Truck Parking Club](https://truckparkingclub.com), a two-sided marketplace for truck parking.
 
@@ -21,9 +21,10 @@ I'm usually the person who owns how a product's server side is designed, built a
 
 | | |
 |---|---|
-| **2023 — now** | Tech Lead & Senior Software Engineer · [Truck Parking Club](https://truckparkingclub.com) |
-| **2021 — 2022** | Lead Engineer · [Jetmanlabs](https://jetmanlabs.com) |
-| **2018 — 2021** | Founding Engineer · [Jetmanlabs](https://jetmanlabs.com) |
+| **Feb 2025 — now** | Senior Software Engineer · [Truck Parking Club](https://truckparkingclub.com) |
+| **Jul 2022 — Feb 2025** | Technical Lead · Truck Parking Club & Feasttt _(via Codelux Technologies)_ |
+| **2021 — Jul 2022** | Lead Engineer · [Jetmanlabs](https://jetmanlabs.com) |
+| **Sep 2018 — 2021** | Founding Engineer · [Jetmanlabs](https://jetmanlabs.com) |
 
 The work I'm proudest of: replatforming Truck Parking Club off Sharetribe onto a custom Node.js backend, so listings, bookings, pricing, payouts and permissions could be built around how truck parking actually works instead of a hosted template.
 

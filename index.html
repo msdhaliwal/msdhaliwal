@@ -243,7 +243,7 @@
     /* ---------- experience ---------- */
     .timeline { list-style: none; margin: 0; padding: 0; }
     .role {
-      display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 20px 32px;
+      display: grid; grid-template-columns: 172px minmax(0, 1fr); gap: 20px 32px;
       padding: 28px 0; border-top: 1px solid var(--line);
     }
     .role:first-child { border-top: 0; padding-top: 0; }
@@ -384,7 +384,7 @@
         <aside class="hero-aside">
           <div class="portrait"><img src="src/assets/self.jpeg" alt="Portrait of Manpreet Singh Dhaliwal" width="224" height="224" loading="eager" fetchpriority="high"></div>
           <ul class="facts">
-            <li><span class="k">Now</span><span>Tech Lead, Truck Parking Club</span></li>
+            <li><span class="k">Now</span><span>Senior Software Engineer, Truck Parking Club</span></li>
             <li><span class="k">Since</span><span>2018 · 8 yrs and counting</span></li>
             <li><span class="k">Focus</span><span>APIs · marketplaces · payments</span></li>
             <li><span class="k">TZ</span><span class="mono">Asia/Kolkata · IST</span></li>
@@ -433,22 +433,20 @@
         <div class="section-head">
           <span class="num">02</span>
           <h2>Experience</h2>
-          <p>Eight years, two companies, one marketplace and one dev-tools startup.</p>
+          <p>Eight years across a dev-tools startup and a marketplace.</p>
         </div>
         <ol class="timeline reveal">
 
           <li class="role">
-            <div class="when">2022 — <span class="now">Present</span></div>
+            <div class="when">Feb 2025 — <span class="now">Present</span></div>
             <div>
-              <h3>Tech Lead &amp; Senior Software Engineer <span class="org">· <a href="https://truckparkingclub.com" target="_blank" rel="noopener">Truck Parking Club</a></span></h3>
-              <p class="sub">Backend, architecture and platform ownership for a truck-parking marketplace (US market).</p>
+              <h3>Senior Software Engineer <span class="org">· <a href="https://truckparkingclub.com" target="_blank" rel="noopener">Truck Parking Club</a></span></h3>
+              <p class="sub">Backend and platform work on the marketplace, now in-house.</p>
               <ul>
-                <li><strong>Replatformed the product off Sharetribe</strong> onto a custom Node.js backend, so listings, bookings, pricing and permissions could be built around how truck parking actually works instead of a hosted template.</li>
                 <li><strong>Own the server side</strong> of the platform: business logic, API design and performance, database schema and operations for landowners, drivers, fleet managers and admins.</li>
                 <li><strong>Leading the move from a monolith to a hybrid microservices architecture</strong> — a pluggable notifications service (SMS and email via Twilio and SendGrid) and a bookings service decoupled from the order module.</li>
                 <li><strong>Payments and subscriptions on Stripe</strong>: payment-method resolution, SetupIntent and CustomerSession flows, subscription scheduling, webhook handling for failed invoices and cancellations, refunds and coupons.</li>
                 <li><strong>Performance and caching</strong> with a centralised Redis layer; queue-backed background work with BullMQ.</li>
-                <li><strong>Run feasibility studies</strong> for upcoming features, define scope and plan deliverables with cross-functional teams, then see them through to shipping on time.</li>
                 <li>Shipping a <strong>React Native mobile app</strong> for iOS and Android, and integrating an AI voice/chat agent with session-token identity into the React web app.</li>
               </ul>
               <div class="tags">
@@ -458,7 +456,24 @@
           </li>
 
           <li class="role">
-            <div class="when">2021 — 2022</div>
+            <div class="when">Jul 2022 — Feb 2025</div>
+            <div>
+              <h3>Technical Lead <span class="org">· <a href="https://truckparkingclub.com" target="_blank" rel="noopener">Truck Parking Club</a> &amp; Feasttt</span></h3>
+              <p class="sub">Engaged via Codelux Technologies. Led the backend and architecture on both products.</p>
+              <ul>
+                <li><strong>Replatformed Truck Parking Club off Sharetribe</strong> onto a custom Node.js backend, so listings, bookings, pricing, payouts and permissions could be built around how truck parking actually works instead of a hosted template.</li>
+                <li>Set the platform architecture the product still runs on — schema, API surface, role-based organisations and payment flows.</li>
+                <li><strong>Ran feasibility studies</strong> for upcoming features, defined scope and planned deliverables with cross-functional teams, then saw them through to shipping on time.</li>
+                <li>Delivered <strong>Feasttt</strong>, an order-management platform for fine-dining restaurants — reservations, staff, orders, payments, refunds and owner analytics.</li>
+              </ul>
+              <div class="tags">
+                <span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Stripe</span><span class="tag">AWS</span><span class="tag">System design</span><span class="tag">Team leadership</span>
+              </div>
+            </div>
+          </li>
+
+          <li class="role">
+            <div class="when">2021 — Jul 2022</div>
             <div>
               <h3>Lead Engineer <span class="org">· <a href="https://jetmanlabs.com" target="_blank" rel="noopener">Jetmanlabs</a></span></h3>
               <p class="sub">API-testing platform and cross-platform desktop client — a free alternative to Postman.</p>
@@ -474,7 +489,7 @@
           </li>
 
           <li class="role">
-            <div class="when">2018 — 2021</div>
+            <div class="when">Sep 2018 — 2021</div>
             <div>
               <h3>Founding Engineer <span class="org">· <a href="https://jetmanlabs.com" target="_blank" rel="noopener">Jetmanlabs</a></span></h3>
               <p class="sub">First engineering role, straight out of college.</p>
@@ -519,7 +534,7 @@
               <p style="margin-top:10px">
                 A two-sided marketplace for truck parking. Property owners list spaces with location, size and pricing;
                 drivers and fleet managers book hourly, daily, weekly or monthly; admins run refunds, coupons and listings
-                from a dashboard. I lead the backend and platform architecture.
+                from a dashboard. I've led the backend and platform architecture since 2023.
               </p>
               <div class="tags">
                 <span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Redis</span><span class="tag">Stripe</span><span class="tag">AWS S3 · Lambda · RDS · SQS</span><span class="tag">Cloudflare R2</span><span class="tag">React / Vite</span>
@@ -568,7 +583,7 @@
           <article class="card">
             <div class="card-top">
               <h3>Feasttt</h3>
-              <span class="kind">Order management · SaaS</span>
+              <span class="kind">Order management · 2022 — 25</span>
             </div>
             <p>
               Operations platform for fine-dining restaurants: reservations, host and waiter management, orders,
@@ -581,7 +596,7 @@
           <article class="card">
             <div class="card-top">
               <h3>Sharetribe → custom platform</h3>
-              <span class="kind">Replatform · TPC</span>
+              <span class="kind">Replatform · TPC · 2023</span>
             </div>
             <p>
               Moved Truck Parking Club off Sharetribe onto a custom Node.js backend — lifting the product out of a
