@@ -21,7 +21,7 @@ I'm usually the person who owns how a product's server side is designed, built a
 
 | | |
 |---|---|
-| **2022 — now** | Tech Lead & Senior Software Engineer · [Truck Parking Club](https://truckparkingclub.com) |
+| **2023 — now** | Tech Lead & Senior Software Engineer · [Truck Parking Club](https://truckparkingclub.com) |
 | **2021 — 2022** | Lead Engineer · [Jetmanlabs](https://jetmanlabs.com) |
 | **2018 — 2021** | Founding Engineer · [Jetmanlabs](https://jetmanlabs.com) |
 
